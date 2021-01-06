@@ -1,0 +1,140 @@
+* {
+  scroll-behavior: smooth;
+  font-family: "Cairo", sans-serif;
+}
+.white-text {
+  color: white;
+}
+
+.round-img {
+  margin-top: 100px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.info,
+.round-img {
+  animation: fadein 2s;
+}
+
+.ime {
+  animation: fadein 5s;
+}
+
+.button,
+.opis {
+  animation: fadein 5s;
+}
+
+.prvo-dugme:hover {
+  size: 50%;
+}
+
+.background-gradient {
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+.background-color {
+  background: #222222;
+}
+
+.wrapper {
+  background: url(img/bg.jpg);
+  padding: 3rem;
+  height: 650px;
+}
+
+.navbar,
+.navbar-inverse {
+  margin-bottom: 0px;
+  padding: 0%;
+}
+
+.About {
+  height: 600px;
+}
+
+.Education {
+  height: 500px;
+}
+
+.margin-top {
+  margin-top: 120px;
+}
+
+.border {
+  border: 1px solid gray;
+}
+
+.margin-top-sm {
+  margin-top: 50px;
+}
+
+.Work {
+  height: 500px;
+}
+
+.Work ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 25px;
+  border: 1px solid gray;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Work li {
+  margin-bottom: 5px;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-bottom {
+  margin-bottom: 100px;
+}
+
+.black-text button {
+  color: black;
+}
+
+.black-text input {
+  width: 30%;
+  height: 20%;
+  color: black;
+}
+
+input[type="text"] {
+  height: 50px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.round-img2 {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.vece {
+  height: 25px;
+  width: 25px;
+  font-size: 25px;
+}
